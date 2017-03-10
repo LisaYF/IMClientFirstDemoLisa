@@ -1,0 +1,56 @@
+﻿<Window x:Class="IMClientFirstDemoLisa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IMClientFirstDemoLisa"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="260" Closed="Window_Closed">
+    <Grid Height="419" VerticalAlignment="Bottom">
+        <!--Lisa-->
+        <Grid.Background>
+
+            <LinearGradientBrush>
+                <GradientStop Offset="0" Color="Blue"></GradientStop>
+                <GradientStop Offset="0.2" Color="LightBlue"></GradientStop>
+            </LinearGradientBrush>
+
+        </Grid.Background>
+        <!--Lisa-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Margin="0,2,0,337" Grid.RowSpan="2">
+            <Label x:Name="label" Foreground="White" Content="Label" FontSize="21.333" FontWeight="Bold" Margin="0,0,161,0"/>
+        </StackPanel>
+        <ListBox x:Name="listBoxUsers" Grid.Row="1" SelectionChanged="listBoxUsers_SelectionChanged" Background="#FFC6C2F0" >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.Column="0" Source="{Binding Image}"></Image>
+                        <TextBlock Grid.Column="1" FontSize="26" Text="{Binding UserName,Mode=OneTime}"></TextBlock>
+                        <TextBlock Grid.Column="2" FontSize="26"  Text="{Binding DisplayState,Mode=OneWay}"></TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <EventSetter Event="MouseDoubleClick" Handler="listBoxUsers_MouseDoubleClick"></EventSetter>
+                    <Setter Property="Focusable" Value="False"></Setter>
+                </Style>
+            </ListBox.ItemContainerStyle>
+        </ListBox>
+        <StackPanel Grid.Row="2">
+            <Button x:Name="logoutBtn" Content="切换用户" HorizontalAlignment="Center" Width="65" Click="logoutBtn_Click"/>
+        </StackPanel>
+        <Button x:Name="button" Background="#FF6CB2E2" Foreground="White" Content="添加好友" HorizontalAlignment="Left" Margin="176,10,0,21" Width="76" Click="button_Click"/>
+
+    </Grid>
+</Window>

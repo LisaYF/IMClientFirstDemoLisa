@@ -1,0 +1,24 @@
+﻿<Window x:Class="IMClientFirstDemoLisa.AddUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IMClientFirstDemoLisa"
+        mc:Ignorable="d"
+        Title="AddUserWindow" Height="300" Width="300">
+    <Grid>
+        <Label x:Name="lbladdid" Content="帐号" HorizontalAlignment="Left" Margin="27,10,0,0" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="tbxaddid" HorizontalAlignment="Left" Height="23" Margin="27,35,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="246"/>
+        <Button x:Name="btnadd" Content="注册" HorizontalAlignment="Left" Margin="106,224,0,0" VerticalAlignment="Top" Width="75" Click="btnadd_Click"/>
+        <Label x:Name="lbladdname" Content="输入昵称" HorizontalAlignment="Left" Margin="27,58,0,0" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="tbxaddname" HorizontalAlignment="Left" Height="23" Margin="27,83,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="246"/>
+        <Label x:Name="lbladdsex" Content="输入性别" HorizontalAlignment="Left" Margin="27,106,0,0" VerticalAlignment="Top" Width="95"/>
+        <Label x:Name="lbladdpassword" Content="输入密码" HorizontalAlignment="Left" Margin="27,154,0,0" VerticalAlignment="Top" Width="95"/>
+        <TextBox x:Name="tbxaddpassword" HorizontalAlignment="Left" Margin="27,179,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" RenderTransformOrigin="-0.005,0.03" Width="246" Height="23"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="27,136,0,0" VerticalAlignment="Top" Width="246">
+            <ComboBoxItem Content="男"/>
+            <ComboBoxItem Content="女"/>
+        </ComboBox>
+
+    </Grid>
+</Window>

@@ -1,0 +1,21 @@
+﻿<Window x:Class="IMClientFirstDemoLisa.AddFriends"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IMClientFirstDemoLisa"
+        mc:Ignorable="d"
+        Title="AddFriends" Height="180.709" Width="300">
+    <Grid Margin="0,0,0,-2">
+        <Grid.Background>
+            <LinearGradientBrush>
+                <GradientStop Offset="0" Color="Blue"></GradientStop>
+                <GradientStop Offset="0.7" Color="LightCyan"></GradientStop>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="28" Margin="28,58,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button" Content="添加" Foreground="White" HorizontalAlignment="Left" Margin="174,58,0,0" VerticalAlignment="Top" Width="75" Height="28" Background="#FF4B58E2" Click="button_Click"/>
+        <Label x:Name="label" Content="输入添加用户ID" Foreground="White" HorizontalAlignment="Left" Margin="28,26,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

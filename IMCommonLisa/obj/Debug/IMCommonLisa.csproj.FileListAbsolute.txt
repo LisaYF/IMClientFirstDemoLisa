@@ -1,0 +1,15 @@
+C:\Users\lisa\Desktop\项目\LisaFirstDemoWPF\IMClientFirstDemoLisa\IMCommonLisa\bin\Debug\IMCommonLisa.dll
+C:\Users\lisa\Desktop\项目\LisaFirstDemoWPF\IMClientFirstDemoLisa\IMCommonLisa\bin\Debug\IMCommonLisa.pdb
+C:\Users\lisa\Desktop\项目\LisaFirstDemoWPF\IMClientFirstDemoLisa\IMCommonLisa\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lisa\Desktop\项目\LisaFirstDemoWPF\IMClientFirstDemoLisa\IMCommonLisa\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lisa\Desktop\项目\LisaFirstDemoWPF\IMClientFirstDemoLisa\IMCommonLisa\obj\Debug\IMCommonLisa.dll
+C:\Users\lisa\Desktop\项目\LisaFirstDemoWPF\IMClientFirstDemoLisa\IMCommonLisa\obj\Debug\IMCommonLisa.pdb
+D:\Code\vsCode\LisaFirstDemoWPF\IMClientFirstDemoLisa\IMCommonLisa\bin\Debug\IMCommonLisa.dll
+D:\Code\vsCode\LisaFirstDemoWPF\IMClientFirstDemoLisa\IMCommonLisa\bin\Debug\IMCommonLisa.pdb
+D:\Code\vsCode\LisaFirstDemoWPF\IMClientFirstDemoLisa\IMCommonLisa\obj\Debug\IMCommonLisa.dll
+D:\Code\vsCode\LisaFirstDemoWPF\IMClientFirstDemoLisa\IMCommonLisa\obj\Debug\IMCommonLisa.pdb
+C:\Users\lisa\Desktop\IMClientFirstDemoLisa\IMCommonLisa\bin\Debug\IMCommonLisa.dll
+C:\Users\lisa\Desktop\IMClientFirstDemoLisa\IMCommonLisa\bin\Debug\IMCommonLisa.pdb
+C:\Users\lisa\Desktop\IMClientFirstDemoLisa\IMCommonLisa\obj\Debug\IMCommonLisa.dll
+C:\Users\lisa\Desktop\IMClientFirstDemoLisa\IMCommonLisa\obj\Debug\IMCommonLisa.pdb
+D:\Code\vsCode\LisaFirstDemoWPF\IMClientFirstDemoLisa\IMCommonLisa\obj\Debug\IMCommonLisa.csprojResolveAssemblyReference.cache

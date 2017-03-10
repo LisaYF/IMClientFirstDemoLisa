@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMClientFirstDemoLisa", "IMClientFirstDemoLisa\IMClientFirstDemoLisa.csproj", "{A295C226-2F8B-445C-8800-47F0885B4B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMCommonLisa", "IMCommonLisa\IMCommonLisa.csproj", "{1A1B7834-2610-452E-B3AC-217741A83753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMServer", "IMServer\IMServer.csproj", "{86EB4FBD-F22A-4979-9A97-1CD8B3088605}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A295C226-2F8B-445C-8800-47F0885B4B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A295C226-2F8B-445C-8800-47F0885B4B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A295C226-2F8B-445C-8800-47F0885B4B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A295C226-2F8B-445C-8800-47F0885B4B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1B7834-2610-452E-B3AC-217741A83753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1B7834-2610-452E-B3AC-217741A83753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1B7834-2610-452E-B3AC-217741A83753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1B7834-2610-452E-B3AC-217741A83753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86EB4FBD-F22A-4979-9A97-1CD8B3088605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86EB4FBD-F22A-4979-9A97-1CD8B3088605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86EB4FBD-F22A-4979-9A97-1CD8B3088605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86EB4FBD-F22A-4979-9A97-1CD8B3088605}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
